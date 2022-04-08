@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -g -Wall -fsanitize=address,undefined
 
-ww_mehmet: ww_mehmet.c
+Jesuit.c: Jesuit.c
 	$(CC) $(CFLAGS) -o $@ $^
 
 %.o: %.c
